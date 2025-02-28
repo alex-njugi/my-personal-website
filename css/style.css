@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: 0;
+}
+
+body{
+    background-color: #eaf4f2;
+}
+
+.page-title{
+    font-family: "Eater", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page-title:hover{
+    color: orange;
 }
 
 a{
@@ -61,7 +76,8 @@ nav a:hover {
 
 .hero-text h1 {
     font-size: 40px;
-    color: #e65314;
+    color: #df4e11; 
+    
 }
 
 .hero-text p {
@@ -73,11 +89,71 @@ nav a:hover {
 }
 
 .about-link{
-    background-color: #d67248;
+    background-color: #ca5523;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 1.1em;
+    padding: 30px 30px;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.about-link:hover{
+    background-color:  #ff4d00;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fc5108; 
+    background-image: url(../image/header.png);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.family-image img{
+    max-width: auto;
+    height: 500px;
+    
+}
+
+.About-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.about-text{
+    text-align: left;
+    width: 100vh
+}
+    
+p{
+    padding: 20px;
+    font-size: 20px;
+    color: #3a6150;
+}
+
+.family-image{
+    display: flex;
+    flex-direction: column;
+}
+
+.fam{
+    padding-top: 40PX;
+    color:#fc5108;
+    font-size: 40px;
+    padding-left: 180px;
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.Contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
