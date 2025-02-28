@@ -4,39 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <section>
-            <nav>
-                <h1>WELCOME HOME</h1>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Achievements">Achievements</a></li>
-                    <li><a href="#Education">Education</a></li>
-                    <li><a href="#Contacts">Contacts</a></li>
-                </ul>
-            </nav>
-        </section>
+        <a href="#">
+            <h1 class="page-title">WELCOME HOME</h1>
+        </a>
 
-        <section>
-            <div>
-                <img src="image/" alt="photo of Alex">
-            </div>
-        </section>
-
-        <section>
-            <h2>Hi! I'm Alex Njugi.</h2>
-            <p> I'm a software engineer with a knack for<br> problem-solving who loves building<br>creative and effivient solutions that help
-                <br>users and brands enhance their digital <br>experience.
-            </p>
-            <a href="#about"><button>Tell Me More!</button></a>
-
-        </section>
+        <nav>
+            <a href="/" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Achievements">Achievements</a>
+            <a href="#Education">Education</a>
+            <a href="#Contacts">Contact</a>
+        </nav>
     </header>
 
     <main>
+        <section class="hero">
+            <section class="hero-content">
+                <section class="hero-image">
+                    <img src="image/alex.jpg" alt="a photo ofAlex">
+                </section>
+            
+                <section class="hero-text">
+                    <h1>Hi! I'm Alex Njugi.</h1>
+                    <p>I'm a software engineer with a knack for
+                        <br> problem-solving who loves building 
+                        <br>creative and efficient solutions that help 
+                        <br>users and brands enhance their digital 
+                        <br>experience.
+                    </p>
+                    <a href="#About" class="about-link">TELL ME MORE</a>
+                </section>
+            </section>
+        </section>
+
         <section id="About">
             <h2>About</h2>
             <section>
@@ -185,9 +189,6 @@
             <p>AND HAVE A NICE TIME</p>
             </section>
 
-            <div>
-                <h6>&copy Alex's Portfolio all rights reserved.</h6>
-            </div>
         </section>   
     </footer>
 </body>
