@@ -139,6 +139,7 @@ p{
 .family-image{
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .fam{
@@ -152,8 +153,95 @@ p{
 
 }
 
-.Contacts{
+img{
+    border-radius: 10px;
+}
+
+.Achievements-content{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    min-height: 100vh;
+}
+
+.Achievements-text{
+    text-align: left;
+    width: 100vh
+}
+
+.trophy-image img{
+    max-width: auto;
+    height: 700px;
+}
+
+.trophy-image{
+    display: flex;
+    flex-direction: column;
+}
+
+.win{
+    color:#fc5108;
+    font-size: 40px;
+    padding-left: 50px;
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.Education-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Education-text{
+    text-align: left;
+    width: 100vh
+}
+
+.library-image img{
+    max-width: 800px;
+    height: 700px;
+}
+
+.library-image{
+    display: flex;
+    flex-direction: column;
+}
+
+.read{
+    color:#fc5108;
+    font-size: 40px;
+    padding-left: 220px;
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #f4a261;
+}
+
+#contacts {
+    max-width: 400px;
+    margin: auto;
+}
+
+
+.thanks {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 40px;
+    color: #f4a261;
 }
